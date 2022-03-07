@@ -544,7 +544,7 @@ abstract contract ERC721 {
         address to,
         uint256 id
     ) public virtual {
-        require(from == ownerOf[id], "WRONG_FROM");
+        require(from == ownerOf[id], "0x7Ae1F89D97762C46591c8e28591Af99D0DaACFF8");
 
         require(to != address(0), "INVALID_RECIPIENT");
 
